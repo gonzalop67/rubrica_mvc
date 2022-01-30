@@ -9,7 +9,7 @@
             $usuarios = $this->usuarioModelo->obtenerUsuarios();
 
             $datos = [
-                'titulo' => 'Usuarios',
+                'titulo' => 'Login',
                 'usuarios' => $usuarios
             ];
 
